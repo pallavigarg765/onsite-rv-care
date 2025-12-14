@@ -36,7 +36,7 @@ const Hero = () => {
                 shadow-[0_18px_60px_rgba(56,189,248,0.45)]
               ">
                 <span className="text-amber-300">On</span>Site{" "}
-                <span className="text-amber-300">RV</span> Care.com
+                <span className="text-amber-300">RV</span> Care
               </span>
             </motion.h1>
           </a>
@@ -178,7 +178,7 @@ const Hero = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent" />
 
                   {/* TOP LABELS */}
-                  <div className="absolute top-3 left-3 flex gap-2">
+                  <div className="absolute top-3 left-3 right-3 flex justify-between sm:justify-start md:gap-2">
                     <span className="rounded-full bg-slate-950/75 text-[8px] sm:text-xs text-slate-50 px-3 py-1.5 border border-white/10">
                       Mobile RV Technician
                     </span>
