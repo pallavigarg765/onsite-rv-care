@@ -70,7 +70,7 @@ const Hero = () => {
               </h2>
 
               {/* Subtext */}
-              <p className="font-inter text-sm sm:text-base md:text-lg text-slate-200/90 max-w-xl mx-auto md:mx-0 mb-6">
+              <p className="font-inter text-sm sm:text-base md:text-lg text-slate-200/90 max-w-xl mx-auto md:mx-0 mb-6 font-bold">
                 Emergency breakdowns, power issues, and routine maintenance for
                 motorhomes, trailers, and trucks — handled OnSite so you never
                 have to leave the campsite.
@@ -89,19 +89,19 @@ const Hero = () => {
 
                 <div className="relative flex sm:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
                   <a href="tel:+14079003199" className="w-full sm:w-auto">
-                  <Button
-                    size="lg"
-                    className="w-full sm:w-auto group bg-sky-500 hover:bg-sky-400 text-white text-[10px] md:text-base px-1 md:px-8 py-0 md:py-4 rounded-2xl shadow-[0_18px_60px_rgba(56,189,248,0.45)] hover:shadow-[0_22px_70px_rgba(56,189,248,0.6)] transition-all duration-300 hover:-translate-y-0.5 flex items-center  justify-center h-9 md:h-11 gap-0 md:gap-2"
-                  >
-                    Book OnSite Service
-                    <ArrowRight className="ml-0 md:ml-2 size-4 group-hover:translate-x-1 transition-transform" />
-                  </Button>
-                </a>
+                    <Button
+                      size="lg"
+                      className="w-full sm:w-auto group bg-sky-500 hover:bg-sky-400 text-white text-[14px] md:text-base px-1 md:px-8 py-0 md:py-4 rounded-2xl shadow-[0_18px_60px_rgba(56,189,248,0.45)] font-semibold hover:shadow-[0_22px_70px_rgba(56,189,248,0.6)] transition-all duration-300 hover:-translate-y-0.5 flex items-center  justify-center h-9 md:h-11 gap-0 md:gap-2"
+                    >
+                      Book OnSite Service
+                      <ArrowRight className="ml-0 md:ml-2 size-4 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </a>
 
                   <a href="tel:+14079003199" className="w-full sm:w-auto">
                     <Button
                       size="lg"
-                      className="w-full sm:w-auto border border-slate-100/40 bg-white text-slate-900 text-[10px] md:text-base hover:bg-slate-50 hover:text-slate-900 hover:-translate-y-0.5 px-1 md:px-8 py-0 md:py-4 rounded-2xl backdrop-blur-md flex items-center justify-center h-9 md:h-11 gap-2"
+                      className="w-full sm:w-auto border border-slate-100/40 bg-white text-slate-900 text-[14px] md:text-base font-semibold hover:bg-slate-50 hover:text-slate-900 hover:-translate-y-0.5 px-1 md:px-8 py-0 md:py-4 rounded-2xl backdrop-blur-md flex items-center justify-center h-9 md:h-11 gap-2"
                     >
                       <Phone className="size-2 md:size-4" />
                       Call Now
