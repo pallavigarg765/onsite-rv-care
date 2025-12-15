@@ -1,7 +1,8 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useLayoutEffect } from "react";
 import { MapPin, Clock, Award, DollarSign } from "lucide-react";
-import serviceImage from "@/assets/service-detail.jpg";
+// import serviceImage from "@/assets/service-detail.jpg";
+import serviceImage from "@/assets/rvcarerepairimage.jpg";
 import benefitsBg from "@/assets/RVimage2.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
